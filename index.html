@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="item1">
+            <img src="veg sandwich.jpg">
+            <div class="title"><b>VEG SANDWICH</b></div>
+            <div>
+                <label>Price</label>
+                <select>
+                    <option>50</option>
+                    <option>120</option>
+                   
+                </select>
+            </div>
+            <button onclick="addToCart(item1)">Add to Cart</button>
+        </div>
+        <div class="card" id="item2">
+            <img src="veg soup.jpg">
+            <div class="title"><b>VEG SOUP</b></div>
+            <div>
+                <label>Price</label>
+                <select>
+                    <option>50</option>
+                   
+                    <option>100</option>
+                </select>
+            </div>
+            <button onclick="addToCart(item2)">Add to Cart</button>
+        </div>
+        
+       <br>
+        <div class="card" id="item3">
+            <img src="chicken briyani.jpg">
+            <div class="title"><b>CHICKEN BRIYANI</b></div>
+            <div>
+                <label>Price</label>
+                <select>
+                    <option>100</option>
+                    <option>350</option>
+                    
+                </select>
+            </div>
+            <button onclick="addToCart(item3)">Add to Cart</button>
+        </div>
+        <div class="card" id="item4">
+            <img src="vg.jpg">
+            <div class="title"><b>VEG BRIYANI</b></div>
+            <div>
+                <label>Price</label>
+                <select>
+                    <option>60</option>
+                    <option>120</option>
+                    
+                </select>
+            </div>
+            <button onclick="addToCart(item4)">Add to Cart</button>
+        </div>
+       
+        
+    </div>
+    <div class="cart" id="cart">
+        <div class="title">CART</div><hr/>
+        <div id="title"></div>
+    </div>
+    <script src="app.js">
+
+    </script>
+</body>
+</html>
